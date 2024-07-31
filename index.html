@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Freelings - Desenvolvemos Sites Incríveis para seu Negócio</title>
+
+</head>
+
+<body>
+    <div class="blur"></div>
+    <div class="blur2"></div>
+    <div class="zap-icon">
+        <a href="https://api.whatsapp.com/send?phone=5527999655756" target="_blank"><i class="ri-whatsapp-line"></i></a>
+    </div>
+
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-side">
+                    <img src="./src/logo.webp" alt="" class="logo-img">
+                    <a href="#" class="logo-text">Freelings</a>
+                </div>
+                <ul class="toggle-off">
+                    <li><a href="#home" id="nav-home">Início</a></li>
+                    <li><a href="#services" id="nav-services">Serviços</a></li>
+                    <li><a href="#portfolio" id="nav-portfolio">Portfólio</a></li>
+                    <li><a href="#process" id="nav-process">Processo</a></li>
+                    <li><a href="#about-us" id="nav-about-us">Sobre Nós</a></li>
+                </ul>
+                <a href="https://api.whatsapp.com/send?phone=5527999655756">
+                    <button class="cta-button">Contato</button>
+                </a>
+                <button class="btn-toggle-on" onclick="showMenuToggle()">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+
+                </button>
+
+                <ul class="toggle-on">
+                    <li><a href="#home" id="home-toggle">Início</a></li>
+                    <li><a href="#services" id="services-toggle">Serviços</a></li>
+                    <li><a href="#portfolio" id="portfolio-toggle">Portfólio</a></li>
+                    <li><a href="#process" id="process-toggle">Processo</a></li>
+                    <li><a href="#about-us" id="about-us-toggle">Sobre Nós</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5527999655756">Contato</a></li>
+
+                    <button class="btn-toggle-close" onclick="closeMenuToggle()">
+
+                        <span></span>
+                        <span></span>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+
+
+    <main>
+        <section id="hero" class="hidden">
+
+
+            <div class="container container-hero">
+                <div class="hero-left">
+                    <div class="text-hero">
+                        <h1>Desenvolvemos sites <span class="highlight">incríveis</span> para o seu negócio.</h1>
+                        <p>Descubra nosso fluxo de trabalho contínuo enquanto transformamos os designs em sites
+                            impressionantes
+                            de fluxo da Web. Explore a sinergia entre design e desenvolvimento para uma experiência
+                            on-line
+                            perfeita.</p>
+                    </div>
+                    <button class="button" id="show-work">
+                        Ver trabalho</button>
+                    <div class="social-proof">
+                        <img src="./src/logo.webp" alt="Client avatars">
+                        <span>Construa o futuro da sua empresa conosco!!</span>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="video-box">
+                        <video src="./src/video.mp4" autoplay muted loop></video>
+                    </div>
+                </div>
+                <div class="video-box-mobile">
+                    <video src="./src/video.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section hidden">
+            <div class="container">
+                <h2 class="titulos title-services">Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Web Design</h3>
+                        <p>Criamos designs modernos e responsivos para sua presença online.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Desenvolvimento</h3>
+                        <p>Transformamos designs em sites funcionais e de alto desempenho.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>SEO</h3>
+                        <p>Otimizamos seu site para melhorar o ranking nos mecanismos de busca.</p>
+                    </div>
+
+                    <div class="service-item">
+                        <h3>Manutenção de Sites</h3>
+                        <p>Garantimos que seu site esteja sempre atualizado, seguro e funcionando perfeitamente.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Desenvolvimento de Aplicativos</h3>
+                        <p>Criamos aplicativos móveis personalizados para expandir sua presença digital.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Marketing Digital</h3>
+                        <p>Elaboramos estratégias de marketing digital para aumentar sua visibilidade e engajamento.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>E-commerce</h3>
+                        <p>Desenvolvemos lojas online robustas e intuitivas para impulsionar suas vendas.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Suporte Técnico</h3>
+                        <p>Oferecemos suporte técnico contínuo para resolver quaisquer problemas e garantir que seu site
+                            funcione sem interrupções..</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="portfolio" class="section hidden">
+            <div class="container container-portfolio">
+                <h2 class="titulos title-portfolio">Nosso Portfólio</h2>
+                <div class="portfolio-grid">
+                    <a href="https://conectaimoveisconceito.com.br" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/imobiliaria.webp" alt="Projeto 1">
+                        </div>
+                    </a>
+                    <a href="https://georgelucasglz.github.io/expresso-burger-shop/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/burger.webp" alt="Projeto 2">
+                        </div>
+                    </a>
+                    <a href="https://clericot-cafe.netlify.app" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/praia.webp" alt="Projeto 3">
+                        </div>
+                    </a>
+                    <a href="https://reflexologia-y-spa-nec.netlify.app" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/spa.webp" alt="Projeto 4">
+                        </div>
+                    </a>
+                    <a href="https://georgelucasglz.github.io/Barbearia-Project/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/barberShop.webp" alt="Projeto 5">
+                        </div>
+                    </a>
+                    <a href="https://academia-gm-thai.netlify.app" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/gmThai.webp" alt="Projeto 6">
+                        </div>
+                    </a>
+                    <a href="https://georgelucasglz.github.io/pet-shop/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/petShop.webp" alt="Projeto 7">
+                        </div>
+                    </a>
+                    <a href="https://georgelucasglz.github.io/almaMusical/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/album-player.webp" alt="Projeto 8">
+                        </div>
+                    </a>
+                    <a href="https://georgelucasglz.github.io/listagem-cavaleiros-do-zodiaco/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="./src/ss.webp" alt="Projeto 9">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="process" class="section">
+            <div class="container">
+                <h2 class="titulos title-process">Nosso Processo de Trabalho</h2>
+                <div class="process-steps-container">
+
+                    <div class="process-step playing">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="infotop">
+                            <h3>1. Planejamento</h3>
+                            <p>Entendemos suas necessidades e definimos objetivos claros.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step playing">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="infotop">
+                            <h3>2. Design</h3>
+                            <p>Criamos protótipos e designs visuais para aprovação.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step playing">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="infotop">
+                            <h3>3. Desenvolvimento</h3>
+                            <p>Construímos seu site com as melhores práticas e tecnologias.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step playing">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="infotop">
+                            <h3>4. Lançamento</h3>
+                            <p>Testamos, otimizamos e lançamos seu site ao mundo</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="titulos title-about">Sobre Nós</h2>
+                <div class="about-content">
+
+                    <div class="about-us-box-text">
+                        <div class="card1"></div>
+                        <div class="card2"></div>
+                        <div class="card3">
+                            <p>Inspirados em transformar o mercado de freelancers,
+                                formamos uma
+                                equipe apaixonada por
+                                criar experiências digitais excepcionais. Com um portfólio diversificado, estamos
+                                prontos
+                                para tornar sua visão uma realidade.</p>
+                            <p>Nossa missão é fornecer soluções web inovadoras que não apenas atendam, mas superem
+                                as
+                                expectativas dos nossos clientes.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="about-image">
+                        <div class="card-socio first-card">
+                            <div class="card__content">
+                                <img src="src/george.webp" alt="">
+                                <p class="socio-freelings-name">George</p>
+                            </div>
+
+                        </div>
+                        <div class="card-socio first-card">
+                            <div class="card__content">
+                                <img src="src/emanuel.webp" alt="">
+                                <p class="socio-freelings-name">Emanuel</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="cards-freelings">
+                    <div class="card-socio george">
+                        <div class="card__content">
+                            <img src="src/george.webp" alt="">
+                            <p class="socio-freelings-name">George</p>
+                        </div>
+                    </div>
+                    <div class="card-socio emanuel">
+                        <div class="card__content">
+                            <img src="src/emanuel.webp" alt="">
+                            <p class="socio-freelings-name">Emanuel</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/nadja.webp" alt="">
+                            <p class="socio-freelings-name">Nadja</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/carolina.webp" alt="">
+                            <p class="socio-freelings-name">Carolina</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/guilherme.webp" alt="">
+                            <p class="socio-freelings-name">Guilherme</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/vini.webp" alt="">
+                            <p class="socio-freelings-name">Vini</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/ariela.webp" alt="">
+                            <p class="socio-freelings-name">Ariela</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/matheus.webp" alt="">
+                            <p class="socio-freelings-name">Matheus</p>
+                        </div>
+                    </div>
+                    <div class="card-socio">
+                        <div class="card__content">
+                            <img src="src/lucy.webp" alt="">
+                            <p class="socio-freelings-name">Lucy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2024 Freelings. Todos os direitos reservados.</p>
+
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

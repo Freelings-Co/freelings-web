@@ -1162,6 +1162,11 @@ footer p {
 
 @media (max-width: 750px) {
 
+    .container-hero {
+        padding: 0 20px;
+    
+    }
+
     .portfolio-grid {
         gap: 50px;
         grid-template-columns: repeat(1, 1fr);
@@ -1242,5 +1247,10 @@ footer p {
     .about-us-box-text {
         height: 350px;
 
+    }
+
+    .container-hero {
+        padding: 0 50px;
+    
     }
 }
